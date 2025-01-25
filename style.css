@@ -107,3 +107,13 @@ section {
 .img-rounded {
   border-radius: 50%;
 }
+
+.text-small {
+  font-weight: 200;
+  font-size: 0.7rem;
+  color: slategray;
+}
+
+.bi {
+  color: slategray;
+}
