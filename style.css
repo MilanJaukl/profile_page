@@ -1,0 +1,63 @@
+html {
+  /* CSS HEX */
+  --sky-blue: #8ecae6ff;
+  --blue-green: #219ebcff;
+  --prussian-blue: #023047ff;
+  --selective-yellow: #ffb703ff;
+  --ut-orange: #fb8500ff;
+
+  /* CSS HSL */
+  --sky-blue: hsla(199, 64%, 73%, 1);
+  --blue-green: hsla(192, 70%, 43%, 1);
+  --prussian-blue: hsla(200, 95%, 14%, 1);
+  --selective-yellow: hsla(43, 100%, 51%, 1);
+  --ut-orange: hsla(32, 100%, 49%, 1);
+}
+
+.absolute {
+  position: absolute;
+}
+
+.relative {
+  position: relative;
+}
+
+.fixed {
+  position: fixed;
+}
+
+.sticky {
+  position: sticky;
+}
+
+.flex {
+  display: flex;
+}
+
+.flex-column {
+  flex-direction: column;
+}
+
+.flex-row {
+  flex-direction: row;
+}
+
+.flex-wrap {
+  flex-wrap: wrap;
+}
+
+.justify-center {
+  justify-content: center;
+}
+
+.justify-between {
+  justify-content: space-between;
+}
+
+.justify-around {
+  justify-content: space-around;
+}
+
+.bg-primary {
+  background-color: var(--sky-blue);
+}

@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body style="padding: 0; margin: 0">
+    <nav
+      class="fixed flex bg-primary"
+      style="
+        left: 0;
+        top: 0;
+        gap: 2rem;
+        width: 100%;
+        padding: 1rem;
+        box-sizing: border-box;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        height: 50px;
+      "
+    >
+      <div class="profile">
+        <a href="index.html" class="text-white">
+          <img
+            src="https://placehold.co/600x400"
+            alt="Profile Picture"
+            width="50"
+            height="50"
+          />
+        </a>
+      </div>
+      <div class="browse" style="flex-grow: 1">
+        <input type="text" name="" id="" style="width: 100%" />
+      </div>
+      <div class="chat">
+        <a href="chat.html" class="text-white">Chat</a>
+      </div>
+    </nav>
+    <header
+      style="
+        background-color: red;
+        margin-top: 50px;
+        display: flex;
+        flex-direction: column;
+      "
+    >
+      <div
+        class="profile-background-image"
+        style="height: 350px; position: relative"
+      >
+        <img
+          src="https://placehold.co/600x400"
+          alt=""
+          style="
+            /* width: 100%; */
+            height: auto;
+            background-position: top center;
+            background-repeat: no-repeat;
+            background-size: 100%;
+            object-fit: cover;
+          "
+        />
+        <div
+          class="profile_wrapper"
+          style="
+            position: absolute;
+            bottom: -50px;
+            z-index: 1000;
+            margin-top: 50px;
+            left: 0;
+            border-radius: 50%;
+            overflow: hidden;
+            width: 100px;
+            height: 100px;
+            background-color: blue;
+            padding: 1rem;
+            translate: translateY(-20);
+          "
+        >
+          <img src="https://placehold.co/600x400" alt="" />
+        </div>
+      </div>
+      <div class="profile-main-information">
+        <h1 class="name">Milan Jaukl</h1>
+        <span class="quote">
+          Nejsou žádné hloupé otázky a žádný muž se nestal hlupákem, pokud
+          nepřestal otázky pokládat - C.P. Steinmetz
+        </span>
+        <span class="work">Rheinmetall</span>
+        <div class="location">
+          <span>Decin</span>
+          <span>Ustecko</span>
+          <span>Cesko</span>
+        </div>
+      </div>
+    </header>
+    <footer></footer>
+  </body>
+</html>
